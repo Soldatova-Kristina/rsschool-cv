@@ -31,7 +31,7 @@ if (workTime >=9 && workTime<13 || workTime >= 14 && workTime<18){
 ```
 
 ## Work Experiance:
-
+https://Soldatova-kristina.github.io/rsschool-cv/cv
 
 ## Education:
 Student of the Rolling Scopes School JS/FE Pre-School 2024Q2
