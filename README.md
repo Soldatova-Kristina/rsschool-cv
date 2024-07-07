@@ -1,2 +1,3 @@
 # rsschool-cv
-My first CV
+https://Soldatova-Kristina.github.io/rsschool-cv/cv
+https://Soldatova-Kristina.github.io/rsschool-cv/
