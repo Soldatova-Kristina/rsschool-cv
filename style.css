@@ -116,7 +116,13 @@ h2 {
   width: 125%;
 }
 .programs-list-item {
- margin-bottom: 111px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 111px;
+  width: 198px;
+  height: 128px;
 }
 .skills-icon {
   width: 64px;
