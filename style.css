@@ -1,0 +1,200 @@
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url('fonts/Gilroy-Medium.ttf') format('truetype');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url('fonts/Gilroy-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+html {
+    scroll-behavior: smooth;
+}
+li{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #828282;
+    font-size: 18px;
+    line-height:23px;
+    font-family: 'Gilroy-Bold',sans-serif;
+}
+a:hover {
+    color: #070707;
+}
+body {
+    font-family: 'Gilroy-Medium',sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 40px auto;
+    padding: 0;
+}
+h2 {
+    font-size: 34px;
+    font-family: 'Gilroy-Bold',sans-serif;
+    font-weight: bold ;
+    line-height: 42px ;
+    margin: 40px;
+    text-align: center;
+}
+.nav{
+    margin: 5%;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+.nav-list {
+    list-style: none;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.small-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.introduce {
+    margin-top: 40px;
+    color: #070707;
+    width: 900px;
+}
+.name{
+    font-family: 'Gilroy-Bold',sans-serif;
+    font-size: 47px;
+    line-height: 59px;
+    margin-bottom: 60px;
+}
+.language {
+    transform-origin: 70% -10%;
+    font-size: 16px;
+    transform: rotate(-90deg);
+}
+.used-language {
+    color: #828282;
+}
+.main-photo-container{
+    display: flex;
+    justify-content: center;
+}
+.main-photo {
+    width: 600px;
+    height: 550px;
+}
+.about-me-container {
+    text-align: center;
+}
+.about-me {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 42px;
+    margin-top: 120px;
+    margin-bottom: 17px;
+    border: 2px solid transparent;
+}
+.about-me-text {
+    margin-bottom: 60px;
+}
+
+.work-programs {
+    font-weight: 500;
+    margin: 40px 40px;
+}
+.programs-list {
+    margin-top: 40px;
+    width: 125%;
+}
+.programs-list-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 111px;
+    width: 198px;
+    height: 128px;
+}
+.skills-icon {
+    width: 64px;
+    height: 64px;
+}
+.program-name{
+    color: #828282;
+    font-size: 14px;
+    justify-content: center;
+    margin: 40px 40px;
+}
+.portfolio-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.portfolio-photo{
+    width:350px;
+    height:550px;
+}
+.portfolio-description{
+    color: #070707;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.contacts {
+    height: 622px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contacts-container{
+    width: 30%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.massages {
+    width: 80%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contacts-welcome {
+    color: #070707;
+    text-align: center;
+    margin-bottom: 40px;
+    width: 300px;
+}
+.send-message-btn{
+    width: 180px;
+    height: 42px;
+    text-align: center;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    background-color: #070707;
+    border: none;
+    border-radius: 30px;
+}
+.send-message-btn a{
+    color: #fff;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+}
